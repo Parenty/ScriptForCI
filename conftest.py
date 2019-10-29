@@ -15,7 +15,7 @@ def get_url():
     """
     Return url
     """
-    url = os.environ.get('URL')
+    url = os.environ.get('URL_PY')
     yield url
 
 
